@@ -3,28 +3,28 @@
 	"safety_height": 25,
 	"unit": "metric_mm",
 	"ngs_ourput": "path/to/gcode/script.ngc",
-	"transformations": [
-		"rotate": [
+	"transformations": {
+		"rotate": {
 			"angle": 180,
-			"center": [
+			"center": {
 				"x": 0,
 				"y": 0,
 				"z": 0
-			],
-			"vector": [
+      },
+			"vector": {
 				"x": 0,
 				"y": 0,
 				"z": 0
-			]
-		],
-		"shift": [
-			"axes": [
+      }
+    },
+		"shift": {
+			"axes": {
 				"x" : 0,
 				"y" : 20.0,
 				"z" : 20.0
-			]
-		]
-	],
+      }
+    }
+  },
 	"feed": 1200,
 	"height": 10,
 	"radius": 1,
