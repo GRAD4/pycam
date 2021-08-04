@@ -2,32 +2,16 @@
 	"plunge_feedrate": 100,
 	"safety_height": 25,
 	"unit": "metric_mm",
-	"ngs_ourput": "path/to/gcode/script.ngc",
-	"transformations": {
-		"rotate": {
-			"angle": 180,
-			"center": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-      },
-			"vector": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-      }
-    },
-		"shift": {
-			"axes": {
-				"x" : 0,
-				"y" : 20.0,
-				"z" : 20.0
-      }
-    }
-  },
-	"feed": 1200,
-	"height": 10,
-	"radius": 1,
-	"shape": "ball_nose",
-	"spindle_speed": 1000.0
+	"ngs_output": "script.ngc",
+	"model_input": "gear.stl",
+	"fine_feed": 1200,
+	"fine_height": 10,
+	"fine_radius": 1,
+	"fine_shape": "ball_nose",
+	"fine_spindle_speed": 1000.0,
+	"rough_feed": 600,
+	"rough_height": 10,
+	"rough_radius": 3,
+	"rough_shape": "flat_bottom",
+	"rough_spindle_speed": 1000.0
 }
