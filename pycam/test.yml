@@ -45,7 +45,7 @@ exports:
       - bab6daf625d94288ad8caf134736eb5e
       type: toolpath
     target:
-      location: /home/jalovisko/dev/axya/pycam/pycam/custom_gcode.ngc
+      location: script.ngc
       type: file
 models:
   model:
@@ -56,7 +56,7 @@ models:
           blue: 1.0
           green: 0.4
           red: 0.1
-        name: Gear
+        name: cli_part
     source:
       location: gear.stl
       type: file
@@ -70,8 +70,8 @@ processes:
     milling_style: ignore
     overlap: 0.1
     path_pattern: grid
-    radius_compensation: false
-    rounded_corners: true
+    radius_compensation: 'false'
+    rounded_corners: 'true'
     spiral_direction: out
     step_down: 3.0
     strategy: slice
@@ -83,8 +83,8 @@ processes:
     milling_style: ignore
     overlap: 0.8
     path_pattern: grid
-    radius_compensation: false
-    rounded_corners: true
+    radius_compensation: 'false'
+    rounded_corners: 'true'
     spiral_direction: out
     step_down: 1.0
     strategy: surface
@@ -131,8 +131,8 @@ tools:
     shape: ball_nose
     spindle:
       speed: 1000.0
-      spin_up_delay: 2.0
-      spin_up_enabled: true
+      spin_up_delay: '2.0'
+      spin_up_enabled: 'true'
     tool_id: 2
   rough:
     X-Application:
@@ -144,6 +144,6 @@ tools:
     shape: flat_bottom
     spindle:
       speed: 1000.0
-      spin_up_delay: 2.0
-      spin_up_enabled: true
+      spin_up_delay: '2.0'
+      spin_up_enabled: 'true'
     tool_id: 1
