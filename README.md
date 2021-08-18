@@ -11,8 +11,11 @@ Extract the archive or clone the repository.
 
 Graphical Interface: `pycam/run_gui.py`
 
-Scripted Toolpath Processing: `pycam/run_cli.py FLOW_SPECIFICATION_FILE`
+Scripted Toolpath Processing: `pycam/run_cli.py FLOW_SPECIFICATION_FILE.yml`
 
+JSON files can be converted to YAML configuration with `pycam/json2yml.py`
+
+Feel free to use `--help` option with CLI scripts.
 
 ## Resources
 

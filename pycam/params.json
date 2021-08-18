@@ -1,0 +1,17 @@
+{
+	"plunge_feedrate": 100,
+	"safety_height": 25,
+	"unit": "metric_mm",
+	"ngs_output": "script.ngc",
+	"model_input": "gear.stl",
+	"fine_feed": 1200,
+	"fine_height": 10,
+	"fine_radius": 1,
+	"fine_shape": "ball_nose",
+	"fine_spindle_speed": 1000.0,
+	"rough_feed": 600,
+	"rough_height": 10,
+	"rough_radius": 3,
+	"rough_shape": "flat_bottom",
+	"rough_spindle_speed": 1000.0
+}
