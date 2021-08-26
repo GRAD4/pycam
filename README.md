@@ -10,6 +10,7 @@ Dependencies are located in `requirements.txt`. They can be installed with Pip:
 ```
 pip install -r requirements.txt
 ```
+It is recommended to install and run dependencies in a virtual environment when developing.
 
 ## Running
 
