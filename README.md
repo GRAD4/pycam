@@ -10,6 +10,9 @@ Dependencies are located in `requirements.txt`. They can be installed with Pip:
 ```
 pip install -r requirements.txt
 ```
+
+You would also need [freeglut](http://freeglut.sourceforge.net/) installed (`pacman -S freeglut` on Arch-based distributions).
+
 It is recommended to install and run dependencies in a virtual environment when developing.
 
 ## Running
