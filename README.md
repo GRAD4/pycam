@@ -5,6 +5,16 @@
 PyCAM generates toolpaths (GCode) based on 2D or 3D models for 3-axis CNC machining.
 
 
+## Dependencies
+Dependencies are located in `requirements.txt`. They can be installed with Pip:
+```
+pip install -r requirements.txt
+```
+
+You would also need [freeglut](http://freeglut.sourceforge.net/) installed (`pacman -S freeglut` on Arch-based distributions).
+
+It is recommended to install and run dependencies in a virtual environment when developing.
+
 ## Running
 
 Extract the archive or clone the repository.
